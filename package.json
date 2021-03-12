@@ -1,19 +1,31 @@
 {
-  "name": "create_npm_package",
-  "version": "1.0.0",
-  "description": "",
+  "name": "add-demo-npm",
+  "version": "0.1.0",
+  "description": "A demo package to test publish npm package",
   "main": "./dist/add-domo-npm.js",
   "scripts": {
     "test": "ts-mocha tests/**/*.test.ts",
     "build": "tsc",
-    "coverage": "nyc npm test"
+    "coverage": "nyc npm test",
+    "lint": "eslint \"**/*.ts\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "demo npm",
+    "add",
+    "calculate"
+  ],
+  "author": "youngjin ha",
+  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.15",
     "@types/mocha": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
     "chai": "^4.3.4",
     "eslint": "^7.21.0",
     "mocha": "^8.3.2",
