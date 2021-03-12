@@ -1,0 +1,16 @@
+{
+  "name": "create_npm_package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/add-domo-npm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
